@@ -6,10 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "npm run build && next export -o ../backend/out",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^6.0.1",
+    "@mantine/dates": "^6.0.1",
+    "@mantine/form": "^6.0.1",
+    "@mantine/hooks": "^6.0.1",
+    "@mantine/next": "^6.0.1",
+    "@mantine/notifications": "^6.0.1",
+    "@tabler/icons": "^1.119.0",
+    "moment": "^2.29.4",
     "@next/font": "13.2.4",
+    "dayjs": "^1.11.7",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
